@@ -10,6 +10,7 @@ var johnLennonFacts= facts =>{
   let i=0;
   while(i!=facts.length){
     i+=1;
-    facts[i-1]=facts[i-1]+"!!!";
+    facts[i-1]= (facts[i-1] + "!!!");
   }
+  return facts;
 }
